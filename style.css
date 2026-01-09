@@ -80,19 +80,19 @@ header{
   display: inline-flex;
   align-items: center;
   gap: 8px;
-  padding: 10px 14px;
+  padding: 8px 14px;
   border-radius: 999px;
   background: #ffffff;
   color: #2e7d4f;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .hero_button .active {
-  width: 16px;
-  height: 16px;
+  width: 14px;
+  height: 14px;
   background: #4caf75;
-  border-radius: 50%;
+  border-radius: 100px;
 }
 
 .hero_text{
@@ -117,14 +117,23 @@ header{
   align-items: center;
   gap: 8px;
   padding: 14px 20px;
-  
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
 }
 
+
 .hero_buttons_1 img {
   width: 16px;
+}
+.hero_buttons_1:hover {
+  border: 2px solid #0d0f0e;
+  cursor: pointer;
+
+}
+.hero_buttons_2:hover {
+  border: 2px solid #2e7d4f;
+  cursor: pointer;
 }
 .hero_buttons_2 {
   display: inline-flex;
