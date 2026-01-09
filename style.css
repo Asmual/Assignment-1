@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 /* Header styles */
 header{
@@ -10,7 +11,6 @@ header{
   align-items: center;
   max-width: 1600px;
   height: 92px;
-  /* background-color: antiquewhite; */
   border-bottom: 1px solid #000000;
   padding: 16px 120px;
 }
@@ -48,4 +48,98 @@ header{
 .header_button:hover{
   background-color: #3f734e;
   color: rgb(163, 157, 157);
+}
+
+/* Hero section styles */
+.hero_section{
+  background-image: url(./B13-A01-Knowledge-Vault/assets/hero-bg.png);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.hero_container{
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  max-width: 1360px;
+  align-items: center;
+  text-align: center;
+}
+.hero_content{
+  max-width: 1360px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.hero_button {
+  width: fit-content;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #2e7d4f;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.hero_button .active {
+  width: 16px;
+  height: 16px;
+  background: #4caf75;
+  border-radius: 50%;
+}
+
+.hero_text{
+  font-size: 30px;
+  text-transform: capitalize;
+  align-items: center;
+}
+.hero_text p{
+  margin-top: 16px;
+  font-size: 15px;
+  color: #ffffff;
+  line-height: 24px;
+} 
+.buttons_container{
+  margin-top: 32px;
+}
+.hero_buttons_1 {
+  background-color: #2e7d4f;
+  border: 2px solid #2e7d4f;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 20px;
+  
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero_buttons_1 img {
+  width: 16px;
+}
+.hero_buttons_2 {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0);
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  color: #ffffff;
+  gap: 8px;
+  padding: 14px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 22px;
+}
+
+.hero_buttons_2 img {
+  width: 16px;
 }
