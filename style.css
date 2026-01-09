@@ -143,3 +143,66 @@ header{
 .hero_buttons_2 img {
   width: 16px;
 }
+
+/* Card section styles */
+.card_section{
+  max-width: 1600px;
+  height: 450px;
+  margin: 0 auto;
+}
+.card_content{
+  max-width: 1265px;
+  height: 155px;
+  margin: 0 auto;
+  padding: 0px 120px;
+  text-align: center;
+  justify-content: center;
+
+
+}
+.card_content h2{
+  font-size: 48px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.card_content p{
+  font-size: 16px;
+  margin-top: 16px;
+  color: #393f45;
+}
+.card_container{
+  display: flex;
+  max-width: 1265px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+.card_item{
+  width: 256px;
+  height: 240px;
+  border-radius: 15px;
+  border: 1px solid #d6cccc;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  align-items: center;
+  margin-top: 44px;
+  margin-right: 15px;
+  padding: 0px 10px;
+}
+
+.card_item img{
+  background-color: #F95555;
+  width: 38px;
+  height: 38px;
+  margin-top: 32px;
+  padding: 10px;
+  border-radius: 100px;
+}
+.card_item h3{
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+.card_item p{
+  font-size: 14px;
+  margin-top: 16px;
+}
