@@ -127,7 +127,7 @@ header{
   width: 16px;
 }
 .hero_buttons_1:hover {
-  border: 2px solid #0d0f0e;
+  border: 2px solid #151816;
   cursor: pointer;
 
 }
@@ -214,4 +214,77 @@ header{
 .card_item p{
   font-size: 14px;
   margin-top: 16px;
+}
+.container{
+  max-width: 1360px;
+  height: 485px;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding: 0 20px;
+  gap: 60px;
+}
+.knowledge_image img {
+  width: 485px;
+  max-width: 480px;
+}
+
+.knowledge_section{
+  padding: 10px 0;
+}
+.knowledge_content {
+  max-width: 540px;
+  padding: 50px 0;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2b9055;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.knowledge_content h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.knowledge_content p {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.7;
+  margin-bottom: 28px;
+}
+
+.list_container {
+  margin-top: 10px;
+}
+
+.list_content {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.list_content li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.list_content img {
+  width: 20px;
+  height: 20px;
+}
+
+.list_content span {
+  font-size: 15px;
+  color: #1e293b;
 }
