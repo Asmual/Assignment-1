@@ -14,9 +14,11 @@ header{
   border-bottom: 1px solid #000000;
   padding: 16px 120px;
 }
-.logo :hover{
+
+.logo:hover {
   cursor: pointer;
 }
+
 .navigation_items{
   display: flex;
   justify-content: space-between;
@@ -28,25 +30,31 @@ header{
   list-style-type: none;
   gap: 32px;
 }
+
 .navigation_links a{
   text-decoration: none;
+  font-weight: 500;
   color: black;
-
 } 
+.navigation_links a:hover {
+  color: #2e7d4f;
+  cursor: pointer;
+}
+
 .header_button{
   padding: 12px 16px;
   background-color: #469165;
   color: white;
   border-radius: 5px;
   cursor: pointer;
-  transition: .5s;
+  transition: .3s;
 }
 .header_button a{
   text-decoration: none;
   color: white;
 }
 .header_button:hover{
-  background-color: #3f734e;
+  background-color: #3f6a73;
   color: rgb(163, 157, 157);
 }
 
@@ -86,6 +94,7 @@ header{
   color: #2e7d4f;
   font-size: 18px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .hero_button .active {
@@ -120,14 +129,15 @@ header{
   color: #ffffff;
   font-size: 14px;
   font-weight: 600;
+  transition: .3s;
 }
-
 
 .hero_buttons_1 img {
   width: 16px;
 }
 .hero_buttons_1:hover {
-  border: 2px solid #151816;
+  border: 2px solid #ffffff;
+  background-color: #1f4d56;
   cursor: pointer;
 
 }
@@ -159,6 +169,7 @@ header{
   height: 450px;
   margin: 0 auto;
 }
+
 .card_content{
   max-width: 1265px;
   height: 155px;
@@ -166,9 +177,8 @@ header{
   padding: 0px 120px;
   text-align: center;
   justify-content: center;
-
-
 }
+
 .card_content h2{
   font-size: 48px;
   font-weight: bold;
@@ -215,7 +225,14 @@ header{
   font-size: 14px;
   margin-top: 16px;
 }
-.container{
+
+/* Knowledge Section */
+
+.knowledge_section{
+  padding: 10px 0;
+}
+
+.knowledge_container{
   max-width: 1360px;
   height: 485px;
   display: flex;
@@ -229,9 +246,6 @@ header{
   max-width: 480px;
 }
 
-.knowledge_section{
-  padding: 10px 0;
-}
 .knowledge_content {
   max-width: 540px;
   padding: 50px 0;
@@ -263,7 +277,7 @@ header{
 }
 
 .list_container {
-  margin-top: 10px;
+  margin-top: 10px; 
 }
 
 .list_content {
@@ -288,3 +302,121 @@ header{
   font-size: 15px;
   color: #1e293b;
 }
+
+/* Early Access Section */
+.early_access_section {
+  background-color: #f9f8f4;
+  padding: 100px 30px;
+  text-align: center;
+}
+.early_access_container {
+  max-width: 1265px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.early_access_container {
+  max-width: 1265px;
+  margin: auto;
+}
+
+.early_access_container h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 16px;
+}
+
+.early_access_container p {
+  font-size: 18px;
+  color: #2e343d;
+  line-height: 1.6;
+  margin-bottom: 32px;
+}
+
+.early_access_button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #3f8f5f;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 14px 26px;
+  border-radius: 8px;
+}
+
+.early_access_button:hover {
+  background-color: #132743;
+  transition: .3s;
+}
+
+.early_access_note {
+  display: block;
+  margin-top: 14px;
+  font-size: 13px;
+  color: #2e343d;
+}
+
+
+/* footer styles */
+.footer_section{
+  max-width: 1600px;
+  height: 312px;
+  margin: 0 auto;
+  padding-top: 120px;
+  background-color: #132743;
+} 
+.footer_container{
+  max-width: 1265px;
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_logo img {
+  width: 140px;
+}
+
+.social_logo_items {
+  text-align: right;
+}
+
+.social_logo_items span {
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #ffffff;
+  margin-right: 43px;
+}
+
+.social_icons {
+  display: flex;
+  gap: 16px;
+  justify-content: flex-end;
+}
+
+.social_icons i {
+  font-size: 15px;
+  background-color: white;
+  color: #000000;
+  cursor: pointer;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 100px;
+}
+
+.social_icons i:hover {
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
+  font-size: 14px;
+  color: #cbd5e1;
+  padding: 25px 0;
+  border-top: 1px solid #585e65;
+}
+
